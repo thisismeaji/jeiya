@@ -1,0 +1,81 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --grey: #F6F7F5;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  z-index: 1000;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main{
+  position: relative;
+}
+
+h1, h2, p, a, li{
+  line-height: 2;
+}
+
+
+h1{
+  font-size: 2em;
+}
+
+h2{
+  font-size: 1em;
+}
+
+p{
+  font-size: 1em;
+}
+
+a{
+  font-size: 1em;
+  color: inherit;
+  text-decoration: none;
+}
+
+section{
+  padding: 1rem;
+}
+
+@media screen and (min-width:786px) and (max-width:1200px) {
+  h1{
+    font-size: 1.5em;
+  }
+
+  h2{
+    font-size: 0.9em;
+  }
+
+  p, a{
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width:786px) {
+  h1{
+    font-size: 1.3em;
+  }
+
+  h2{
+    font-size: 0.8em;
+  }
+
+  p, a{
+    font-size: 0.8em;
+  }
+}
+
