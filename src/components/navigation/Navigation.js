@@ -3,9 +3,11 @@
 import Image from "next/image";
 import Styles from "../navigation/navigation.module.css";
 import { useSubscribe } from "@/app/context/SubscribeContext";
+import { useShare } from "@/app/context/ShareContext"; // Import useShare
 
 export default function Navigation() {
-  const { setShowSubscribe } = useSubscribe(); // Ambil setShowSubscribe dari context
+  const { setShowSubscribe } = useSubscribe();
+  const { setShowShare } = useShare(); // Gunakan setShowShare dari Context
 
   return (
     <nav className={Styles.nav}>
@@ -21,7 +23,11 @@ export default function Navigation() {
           height={1000}
         />
       </div>
-      <div className={Styles.menu}>
+      <div
+        className={Styles.menu}
+        onClick={() => setShowShare((prev) => !prev)} // Toggle Share
+        style={{ cursor: "pointer" }}
+      >
         <span></span>
         <span></span>
         <span></span>

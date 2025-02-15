@@ -4,6 +4,7 @@ import { Darumadrop_One } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import { SubscribeProvider } from "@/app/context/SubscribeContext";
 import { Poppins } from "next/font/google";
+import { ShareProvider } from "./context/ShareContext";
 
 const darumadropOne = Darumadrop_One({
   subsets: ["latin"],
@@ -21,11 +22,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={darumadropOne.className}>
         <SubscribeProvider>
+        <ShareProvider>
           <header>
             <Navigation />
           </header>
           {children}
           <Footer />
+          </ShareProvider>
         </SubscribeProvider>
       </body>
     </html>

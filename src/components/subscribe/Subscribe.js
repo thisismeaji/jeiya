@@ -97,7 +97,7 @@ export default function Subscribe() {
           onClick={() => setShowSubscribe(false)}
           style={{ cursor: "pointer" }}
         >
-          <p>×</p>
+          &times;
         </div>
       </div>
     </div>
