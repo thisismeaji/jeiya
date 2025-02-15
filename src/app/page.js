@@ -9,6 +9,7 @@ import Subscribe from "@/components/subscribe/Subscribe";
 import Share from "@/components/share/Share"; // Import Share
 import { useSubscribe } from "@/app/context/SubscribeContext";
 import { useShare } from "@/app/context/ShareContext"; // Import useShare
+import Audio from "@/components/audio/Audio";
 
 export default function Home() {
   const { showSubscribe } = useSubscribe();
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <section className={Styles.section}>
       <Background />
+      <Audio/>
       <div className={Styles.card}>
         <Profile />
         <ListLink />
