@@ -1,10 +1,17 @@
 const Links = [
-    { href: "https://x.com/40143_/status/1873231064560484420?t=kD6f98fqB_TRXVayNSTgOg&s=19", text: "Twitter / X" },
-    { href: "https://whatsapp.com/channel/0029VazXO2cC6ZvbIHbh7d3k", text: "WhatsApp channel" },
-    { href: "https://wa.me/6281932632650", text: "WhatsApp" },
-    { href: "http://padlet.com/Jeiiya/Testinyajeiya", text: "Testimoni" },
-    { href: "https://www.instagram.com/jeaj.je?igsh=MTgyMGF4NDZxeTM3aA==", text: "Instagram" },
-  ];
-  
+  { href: "", text: "Spotify Premium", image: "/assets/logo/spotify-logo.png" },
+  { href: "", text: "Apple Music Premium", image: "/assets/logo/apple-music-logo.png" },
+  { href: "", text: "WeTV Premium", image: "/assets/logo/wetv-logo.png" },
+  { href: "", text: "Iqiyi Premium", image: "/assets/logo/iqiyi-logo.png" },
+  { href: "", text: "Capcut Premium", image: "/assets/logo/capcut-logo.png" },
+  { href: "", text: "Amazone Premium", image: "/assets/logo/prime-video-logo.png" },
+  { href: "", text: "VIU Prime Premium", image: "/assets/logo/viu-logo.png" },
+  { href: "", text: "Netflix Premium", image: "/assets/logo/netflix-logo.png" },
+  { href: "", text: "Vision+ Premium", image: "/assets/logo/vision-logo.png" },
+  { href: "", text: "Youtube Premium", image: "/assets/logo/youtube-logo.png" },
+  { href: "", text: "Vidio Premium", image: "/assets/logo/vidio-logo.png" },
+  { href: "", text: "Canva Premium", image: "/assets/logo/canva-logo.png" },
+  { href: "", text: "Bstation Premium", image: "/assets/logo/bstation-logo.png" },
+];
+
 export default Links;
-  
