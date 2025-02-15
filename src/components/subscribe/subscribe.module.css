@@ -33,6 +33,10 @@
 }
 
 .cardForm{
+    width: 100%;
+}
+
+.cardForm form{
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -56,6 +60,7 @@
     color: var(--background);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .closeBtn{

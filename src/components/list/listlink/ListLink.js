@@ -5,7 +5,7 @@ import Links from "@/data/link/Links";
 
 export default function ListLink() {
   // Nomor WhatsApp tujuan
-  const whatsappNumber = "628161606838"; // Ganti dengan nomor yang diinginkan
+  const whatsappNumber = "6281932632650"; // Ganti dengan nomor yang diinginkan
 
   // Fungsi untuk menangani klik
   const handleClick = (text) => {
