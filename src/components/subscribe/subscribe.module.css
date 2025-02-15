@@ -13,7 +13,7 @@
    text-align: center;
    font-family: "Poppins";
    border-radius: 5px;
-   gap: 2rem;
+   gap: 1.5rem;
 }
 
 .subscribe h1{
@@ -79,10 +79,11 @@
     z-index: 1000;
   }
 
-  @media screen and (max-width:786px){
+@media screen and (max-width:786px){
     .subscribe{
-        width: 90%;
+        width: 95%;
         padding: 4rem 1.5rem;
+        gap: 1rem;
     }
 
     .subscribe h1{
@@ -91,6 +92,15 @@
 
     .closeBtn{
         right: 1.5rem;
+    }
+
+    .subscribe input, .subscribe button{
+        font-size: 0.8em;
+        padding: 1rem;
+    }
+
+    .cardForm{
+        gap: 0.5rem;
     }
   }
   
